@@ -4,7 +4,7 @@ class Config(object):
     # get a token from https://chatbase.com
     CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "ae0ff871-3910-44ed-b51d-4ae98436a6a7")
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "1509087537:AAEX6aot40nMtZEc0wOVbAdMXXb7o0GiXQ8")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "1509087537:AAHe53OwkMKKxQwTLGrmy6EDXFkZVqI4oJk")
     # The Telegram API things
     APP_ID = int(os.environ.get("APP_ID", 586695))
     API_HASH = os.environ.get("API_HASH",'6fa1c100474f8e24ec05a5a1b75a72ab')
@@ -24,7 +24,7 @@ class Config(object):
     # chunk size that should be used with requests
     CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", 128))
     # default thumbnail to be used in the videos
-    DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "https://placehold.it/90x90")
+    DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "http://streamtelegram.iamidiotareyoutoo.com/463256771376330388/2021-01-26_15:46:22.jpg")
     # proxy for accessing youtube-dl in GeoRestricted Areas
     # Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
